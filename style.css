@@ -1,0 +1,53 @@
+.container {
+  width: 960px;
+  margin: auto;
+  padding: 0 20px;
+  background: #f0eff4;
+  position: relative;
+}
+.container .title {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+.container p {
+  line-height: 1.6;
+  padding: 10px;
+  font-size: 16px;
+}
+.ads {
+  position: absolute;
+  background-color: #fff;
+  width: 500px;
+  border: 3px solid #acacde;
+  color: #2274a5;
+  padding: 15px;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+  margin-top: 100px;
+  margin-left: -268px;
+}
+.ads h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 5px 10px;
+}
+.ads .close {
+  background: #acacde;
+
+  padding: 10px 10px;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  color: #fff;
+}
+
+.ads img {
+  width: 100%;
+  padding: 10px 0;
+}
+.ads p {
+  padding: 10px;
+  font-size: 20px;
+}
